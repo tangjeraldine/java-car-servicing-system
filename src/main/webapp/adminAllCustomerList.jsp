@@ -15,5 +15,6 @@
 		out.println(x);
 	}
 	%>
+	<br><a href="/car-service-center-mvc/viewCustomerDetails.jsp">Return to search</a>
 </body>
 </html>

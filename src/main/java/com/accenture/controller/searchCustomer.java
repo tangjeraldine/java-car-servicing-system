@@ -31,7 +31,7 @@ public class searchCustomer extends HttpServlet {
 		session.setAttribute("cust_email", cust_email);
 
 		if (cust_name!=null) {
-			response.sendRedirect("/car-service-center-mvc/adminAllCustomerList.jsp");
+			response.sendRedirect("/car-service-center-mvc/customerSearchResult.jsp");
 		} else {
 			response.sendRedirect("/car-service-center-mvc/adminSearchFail.html");
 		}
