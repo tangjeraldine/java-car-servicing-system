@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Duplicate Username Found</title>
+</head>
+<body>
+<form action="/car-service-center-mvc/customerRegister">
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="username"></td>
+				<td style="color: red">Username already exists. Please select another username.</td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>Confirm Password:</td>
+				<td><input type="password" name="confirmPassword"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+		</table>
+		<button type="submit">Register</button>
+	</form>
+</body>
+</html>
